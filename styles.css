@@ -1,3 +1,41 @@
 h1 {
     text-align: center;
 }
+
+#board {
+    padding-top: 3em;
+}
+
+.row > div {  
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.row::after {
+    content: "";
+    display: block; 
+    clear: both;
+}
+
+.row {
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: 1px solid black;
+}
+
+.bottom {
+    border-top: 1px solid black;
+}
+
+.left {
+    border-right: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+}
