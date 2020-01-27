@@ -18,6 +18,8 @@
 .row {
     margin: 0 auto;
     width: 302px;
+    line-height: 100px;
+    font-size: 4em;
 }
 
 .top {
@@ -35,3 +37,9 @@
 .right {
     border-left: 1px solid black;
 }
+
+/* .cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightcyan;
+} */
